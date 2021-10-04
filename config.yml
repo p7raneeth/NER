@@ -1,0 +1,15 @@
+dataset:
+  {conllfile: project-1-at-2021-09-28-11-36-4deb374e.conll,
+  dataframe_name: IOB_dataframe.csv}
+
+
+training parameters:
+  {num_epochs: 1,
+  learning_rate: 1e-4,
+  overwrite_output_dir: True,
+  train_batch_size: 32,
+  eval_batch_size: 32}
+
+transformer model:
+ {name: bert,
+ type: bert-base-cased}
